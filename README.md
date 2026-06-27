@@ -71,23 +71,23 @@ The dataset contains transaction-level information including product categories,
 
 ### Figure 1: Total Sales by Year
 
-![Figure 1](figures/figure1.png)
+![Figure 1](figures/figure_1.png)
 
 ### Figure 2: Monthly Sales Trend by Year
 
-![Figure 2](figures/figure2.png)
+![Figure 2](figures/figure_2.png)
 
 ### Figure 3: Revenue by Category
 
-![Figure 3](figures/figure3.png)
+![Figure 3](figures/figure_3.png)
 
 ### Figure 4: Category Growth (%)
 
-![Figure 4](figures/figure4.png)
+![Figure 4](figures/figure_4.png)
 
 ### Figure 5: Revenue Contribution by Category
 
-![Figure 5](figures/figure5.png)
+![Figure 5](figures/figure_5.png)
 
 ### Insights and Findings
 
