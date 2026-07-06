@@ -1,41 +1,31 @@
-# Exploratory Data Analysis on Retail Store Sales Dataset
+## Exploratory Data Analysis on Retail Store Sales Dataset
 
-## 🛒 Project Overview
+##  Project Overview
+This project analyzes retail sales transactions.The data was cleaned before analysis which aimed to determine sales patterns,customer purchasing behaviour and product perfomance.  
 
-This project focuses on cleaning and analyzing a Retail Store Sales Dataset to uncover meaningful business insights that can support data-driven decision-making. The dataset contains transaction records including product categories, quantities purchased, prices, payment methods, purchase channels and transaction dates.
 
-The analysis provides insights into sales trends, category performance, revenue growth, payment preferences, purchase channels and overall sales contribution by product category.
+##  Analysis Objectives
+*The analysis focused on:
+* Clean inconsistent and missing data.
+* Identifyng sales trend over time.
+* Compare performance of different product categories.
+* Examine customer purchasing behaviour.
+* Compare revenue acrsoss sales channels
 
-## 📝 Problem Statement
-
-Retail businesses generate large volumes of transaction data that can be leveraged to improve business performance. The objective of this project is to:
-
-* Clean and prepare the dataset for analysis.
-* Analyze overall sales trends and revenue growth.
-* Evaluate the performance of different product categories.
-* Examine customer payment methods and purchase channels.
-* Identify key business insights that can support decision-making.
-
-## 📂 Dataset
-
+##  Dataset
 **Source:** Retail Store Sales Dataset
 
-The dataset contains transaction-level information including product categories, item identifiers, quantities sold, unit prices, total spending, payment methods, purchase channels and transaction dates.
-
 ## ⚙️ Tools and Technologies
-
 **Programming Language:** Python
 
 **Libraries Used:**
-
 * pandas
 * NumPy
 * Matplotlib
 
-## 🔍 Key Steps
+##  Key Steps
 
-### Data Loading and Understanding
-
+### Data Loading and inspection
 * Imported the dataset using pandas.
 * Explored the dataset using `.info()`, `.describe()` and other inspection methods.
 * Identified duplicate records and missing values.
@@ -46,10 +36,9 @@ The dataset contains transaction-level information including product categories,
 * Handled missing values using mathematical relationships between Quantity, Price Per Unit and Total Spent.
 * Imputed missing Price Per Unit values using the average price within each Category and Item combination.
 * Removed records with irrecoverable missing values.
-* Converted transaction dates into a standard datetime format.
+* Converted transaction dates into a standard datetime format for time-based analysis.
 
-### Exploratory Data Analysis (EDA)
-
+### Exploratory Analysis
 * Analyzed yearly sales trends.
 * Examined monthly sales trends across different years.
 * Calculated yearly revenue contribution.
@@ -62,7 +51,6 @@ The dataset contains transaction-level information including product categories,
 * Determined revenue contribution by product category.
 
 ### Data Visualization
-
 * Line Charts: Yearly sales trends and monthly sales trends.
 * Horizontal Bar Charts: Revenue by category and category growth.
 * Pie Chart: Revenue contribution by category.
@@ -89,23 +77,12 @@ The dataset contains transaction-level information including product categories,
 
 ![Figure 5](figures/figure_5.png)
 
-### Insights and Findings
-
-* Identified the highest and lowest revenue-generating product categories.
-* Measured overall business growth across the available years.
-* Evaluated the contribution of each category to total revenue.
-* Analyzed customer payment preferences.
-* Compared purchase channels (In-store vs Online).
-* Calculated the average transaction value.
-
-## 📊 Key Insights
-
-* The highest-performing product category was identified.
-* Category growth trends were analyzed across complete years.
+###  Key Insights
+* Electric products were the highest revenue contributing category whereas milk products had the least share at 11.3%
+* Coputer and Electric accessories had the highest growth rate at 16% growth rate from 2022-2024 while buthery products had the highest decline with -14.6% over the same period
 * Customer payment methods and purchase channels showed relatively balanced distributions.
-* Revenue contribution by each product category was determined.
-* Monthly and yearly sales trends were analyzed to understand business performance over time.
-
-## 📈 Results
-
-This project demonstrates an end-to-end data analytics workflow including data cleaning, exploratory data analysis and data visualization. The insights generated can help retail businesses understand sales performance, identify high-performing product categories, monitor revenue growth and support data-driven business decisions.
+* Sales icreased at the rate of 2.82% per annum
+* Sales for 2025 were projected to reach 408000
+  
+##  Conclusion
+This project demonstrates an end-to-end data analytics workflow including data cleaning, exploratory data analysis and visualization using Python. The analysis highlights sales patterns, product perfomance and customer purchase behavior.
