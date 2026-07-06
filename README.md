@@ -15,7 +15,7 @@ This project analyzes retail sales transactions.The data was cleaned before anal
 ##  Dataset
 **Source:** Retail Store Sales Dataset
 
-## ⚙️ Tools and Technologies
+##  Tools and Technologies
 **Programming Language:** Python
 
 **Libraries Used:**
@@ -55,7 +55,7 @@ This project analyzes retail sales transactions.The data was cleaned before anal
 * Horizontal Bar Charts: Revenue by category and category growth.
 * Pie Chart: Revenue contribution by category.
 
-## 📈 Visualizations
+##  Visualizations
 
 ### Figure 1: Total Sales by Year
 
